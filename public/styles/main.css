@@ -134,3 +134,21 @@ body#portfolio ul#portfolioItems li img {
 }
 
 body#about img {height: 15em;}
+
+#topBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: var(--medium-color);
+    color: var(--body-color);
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+#topBtn:hover {
+    color: var(--link-color);
+}
